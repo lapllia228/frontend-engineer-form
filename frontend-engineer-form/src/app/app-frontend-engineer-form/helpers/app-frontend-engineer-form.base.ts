@@ -1,7 +1,8 @@
 import {AbstractControl, AsyncValidatorFn, FormArray, FormBuilder, FormGroup, Validators} from '@angular/forms';
 import {delay, map, of} from 'rxjs';
+import {Directive} from '@angular/core';
 
-
+@Directive()
 export class AppFrontendEngineerFormBase {
   form: FormGroup;
 
